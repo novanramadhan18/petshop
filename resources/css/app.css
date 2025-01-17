@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+@import "@fortawesome/fontawesome-free/css/all.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn-primary {
+        @apply text-sm font-jost font-semibold bg-primary text-white px-6 py-2 rounded-md transition-all duration-300 hover:bg-hover_primary;
+    }
+
+    .btn-navbar {
+        @apply text-base font-jost font-semibold transition-all duration-300 hover:text-primary;
+    }
+
+    .title {
+        @apply font-jost font-semibold text-lg;
+    }
+}
